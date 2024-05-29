@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+.d-flex {
+  display: flex;
+}
+.card {
+  background-color: #faeed5;
+  width: 18rem;
+  min-height: 10rem;
+  border-radius: 10%;
+  flex-direction: column;
+  border: 1px solid black;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border: 2px solid black;
+}
+.Bio {
+  border: 2px solid rgb(239, 7, 7);
+  justify-content: center;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(147, 68, 39);
+
+  border: 2px solid rgb(0, 94, 131);
+}
+span {
+  font-weight: normal;
+}
+p {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(147, 68, 39);
+}
